@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <nav>
+        <a href="/travel.html/home.html">Home</a>
+        <a href="/travel.html/destination.html">Destinations</a>
+        <a href="/travel.html/packages.html">Packages</a>
+        <a href="/travel.html/contact.html">Contact</a>
+    </nav>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login-Page</h1>
+    <form action="http://www.example.com/login.php." method="post">
+        <fieldset>
+            <legend>Personally Details</legend>
+    <p>
+        First Name
+        <input type="text"name="First Name" size="15" maxlength="30" required/>
+        
+        Last Name 
+        <input type="text"name="Last Name"size="15" maxlength="30" >
+        
+    </p>
+       <p>
+           Gender:
+           <input type="radio" name="gender"checked required/> Male
+           <input type="radio"name="gender" required> Female   
+
+       </p>
+       <p>
+        Date of birth:
+        <input type="date" name="dob"/>
+       </p>
+       <p>
+        Please enter your email address:
+        <br>
+        <input type="email" name="mail"/>
+       </p>
+             <p>
+                Nationality:
+                <select name="Countries" multiple >
+                    <option value="pakistan">Pakistan</option>
+                    <option value="china">China</option>
+                    <option value="usa">USA</option>
+                </select>
+             </p>
+        </fieldset>
+        <p>
+          Password: 
+          <input type="password" name="Password"size="15" maxlength="30">   
+           </p>
+           <p>
+           Re-writePassword: 
+            <input type="Re-writepassword" name="Re-writePassword"size="15" maxlength="30">   
+             </p>
+             
+                comments:
+                </p>
+                <textarea name="comments" rows="4" cols="30">Enter yours comments...</textarea>
+             <p>
+                Upload profile pictures:
+                <input type="file" name="db" >
+                <br>
+                <br>
+                <input type="submit" value="Upload">
+                <input type="submit">
+             </p>
+    </form>
+</body>
+</html>
